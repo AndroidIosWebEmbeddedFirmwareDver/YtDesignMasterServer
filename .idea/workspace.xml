@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981bfe57-67f2-4b31-b3f3-30d62f87fa43" name="Default" comment="" />
+    <list default="true" id="981bfe57-67f2-4b31-b3f3-30d62f87fa43" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync_to_github.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sync_to_github.sh" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/com-yt-design-font-site-api/target/" />
@@ -38,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/sync_to_github.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -387,12 +390,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522731004864</updated>
       <workItem from="1522731006706" duration="13001000" />
-      <workItem from="1522803985892" duration="323000" />
+      <workItem from="1522803985892" duration="770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13324000" />
+    <option name="totallyTimeSpent" value="13771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -418,8 +421,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5255172" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.61241376" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36914378" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.61241376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36914378" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -775,7 +778,7 @@
     <entry file="file://$PROJECT_DIR$/sync_to_github.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
