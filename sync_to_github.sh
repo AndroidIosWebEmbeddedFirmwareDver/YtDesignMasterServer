@@ -3,6 +3,7 @@
 nowGMT=`date -u +"%Y-%m-%d-%H-%M-%S"`
 echo $nowGMT
 var=`date "+%Y-%m-%d %H:%M:%S"`
+echo $var
 #1.
 git init
 #2.
