@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-yt-design-back-site-api" />
+        <module name="com-yt-design-font-site-api" />
+        <module name="com-yt-design-server-common" />
+        <module name="com-yt-design-server-jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-yt-design-back-site-api" target="1.8" />
+      <module name="com-yt-design-font-site-api" target="1.8" />
+      <module name="com-yt-design-server-common" target="1.8" />
+      <module name="com-yt-design-server-jpa" target="1.8" />
+      <module name="YtDesignMasterServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

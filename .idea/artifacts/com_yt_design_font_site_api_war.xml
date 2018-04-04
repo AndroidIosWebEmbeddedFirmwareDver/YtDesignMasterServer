@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-yt-design-font-site-api:war">
+    <output-path>$PROJECT_DIR$/com-yt-design-font-site-api/target</output-path>
+    <root id="archive" name="com-yt-design-font-site-api-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="com-yt-design-font-site-api:war exploded" />
+    </root>
+  </artifact>
+</component>
