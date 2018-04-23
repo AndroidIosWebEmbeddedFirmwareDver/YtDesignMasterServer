@@ -25,4 +25,8 @@ public interface YtTbFontSiteUserEntityRepository extends JpaRepository<YtTbFont
     public YtTbFontSiteUserEntity findOneByEmail(String email, int isDeleted);
 
 
+    @Query("Select entity from YtTbFontSiteUserEntity entity where entity.email=?1 and  entity.password=?2 and entity.isDeleted=?3")
+    public YtTbFontSiteUserEntity findOneByEmailAndPassword(String email, String password, int isDeleted);
+
+
 }

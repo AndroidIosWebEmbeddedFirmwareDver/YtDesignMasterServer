@@ -9,12 +9,21 @@ import java.security.PrivilegedActionException;
  **/
 
 public class JpaCommonException extends Exception {
+    private String eDesc;
+
+    public JpaCommonException() {
+    }
+
+    public JpaCommonException(String eDesc) {
+        this.eDesc = eDesc;
+    }
+
 
     @Override
     public String getMessage() {
         String DEFAULT_JPA_EXCEPTION = "数据库操作异常";
-        if (super.getMessage() != null)
-            return super.getMessage();
+        if (eDesc != null && eDesc.length() > 0)
+            return eDesc;
         else
             return DEFAULT_JPA_EXCEPTION;
     }

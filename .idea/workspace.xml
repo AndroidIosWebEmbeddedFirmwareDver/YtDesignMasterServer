@@ -2,99 +2,74 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="com-yt-design-font-site-api:war exploded" />
+      <artifact name="com-yt-design-back-site-api:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981bfe57-67f2-4b31-b3f3-30d62f87fa43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteCommodityOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteDemandOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSitePayOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteServiceOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/entity/common/JsonResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/RequestCommonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteCommodityOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteCommonTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteDemandOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSitePayOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteServiceOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonDataEntityChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageDownEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageQueryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/common/YtTbFontSiteCommonEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteCommodityOrderEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteCommonTypeEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteDemandOrderEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSitePayOrderEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteServiceOrderEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteCommonTypeEntityPagesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbFontSiteUserEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommodityOrderEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommonTypeEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteDemandOrderEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSitePayOrderEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteServiceOrderEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/common/YtTbFontSiteCommonEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommodityOrderEntityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteDemandOrderEntityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSitePayOrderEntityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteServiceOrderEntityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/Base64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/FastJsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/MorseCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/UuidUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_back_site_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_back_site_api_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_font_site_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_font_site_api_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_file_center_api_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_yt_design_file_center_api_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa.tx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adocuments/api/1.文件相关Api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adocuments/api/2.分类相关Api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adocuments/api/3.合作伙伴Api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adocuments/api/4.用户相关Api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adocuments/api/5.轮播广告Api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/ads/YtTbSiteConfigAdsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/certChain/YtTbSiteConfigCertChainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/files/YtTbSiteConfigFilesCenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/partners/YtTbSiteConfigPartnersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-file-center-api/src/main/java/com/yt/design/controllers/files/YtFileCenterFileDownloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-file-center-api/src/main/java/com/yt/design/entity/FileCenterResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Ads/YtTbSiteConfigAdsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/partners/YtTbSiteConfigPartnersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigAdsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigCertChainEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigFilesCenterEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigPartnersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteShotMessageSmsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigAdsEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigCertChainEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigFilesCenterEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigPartnersEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteShotMessageSmsEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigAdsEntityPagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigCertChainEntityPagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigFilesCenterEntityPagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigPartnersEntityPagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteShotMessageSmsEntityPagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigAdsEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigCertChainEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigFilesCenterEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigPartnersEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteShotMessageSmsEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigAdsEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigCertChainEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigFilesCenterEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigPartnersEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteShotMessageSmsEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload_api_back_to_te_server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload_api_file_to_te_server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload_api_font_to_te_server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YtDesignMasterServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YtDesignMasterServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cn_en_dirct.json" beforeDir="false" afterPath="$PROJECT_DIR$/cn_en_dirct.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/back/site/api/ComYtDesignBackSiteApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/back/site/api/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/jpa/entity/RestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/jpa/utils/Base64Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/jpa/utils/MorseCodeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/jpa/utils/UuidUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/test/java/com/yt/design/back/site/api/ComYtDesignBackSiteApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/test/java/com/yt/design/jpa/ComYtDesignBackSiteApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/font/site/api/utils/IDCardUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/IDCardUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/font/site/api/utils/PatternUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/PatternUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/font/site/api/utils/SysConfigZini.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/SysConfigZini.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/ComYtDesignFontSiteApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/config/SwaggerCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/controllers/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/controllers/TestUploadController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/utils/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/utils/FastJsonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/jpa/utils/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/test/java/com/yt/design/font/site/api/ComYtDesignFontSiteApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/test/java/com/yt/design/jpa/ComYtDesignFontSiteApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/jpa/ComYtDesignServerCommonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/jpa/exception/DataCheckCommonException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/jpa/exception/JpaCommonException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/jpa/web/RequestWrapperFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/jpa/web/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/test/java/com/yt/design/server/common/ComYtDesignServerCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-common/src/test/java/com/yt/design/jpa/ComYtDesignServerCommonApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/config/ComYtDesignServerJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/config/ComYtDesignServerJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/entity/YtTbFontSiteUserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/entity/common/DbDataCommonStatusEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonStatusEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/repository/YtTbFontSiteUserEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbFontSiteUserEntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/service/YtTbFontSiteUserEntityDataChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/service/YtTbFontSiteUserEntityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/server/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/test/java/com/yt/design/server/jpa/ComYtDesignServerJpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/test/java/com/yt/design/jpa/ComYtDesignServerJpaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/config/application-re.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/config/application-re.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/resources/config/application-te.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/resources/config/application-te.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/DataCheckCommonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/DataCheckCommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/JpaCommonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/JpaCommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonStatusEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonStatusEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbFontSiteUserEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbFontSiteUserEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommonTypeEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommonTypeEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_get_package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_get_package.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,6 +77,7 @@
     <ignored path="$PROJECT_DIR$/com-yt-design-back-site-api/target/" />
     <ignored path="$PROJECT_DIR$/com-yt-design-server-jpa/target/" />
     <ignored path="$PROJECT_DIR$/com-yt-design-server-common/target/" />
+    <ignored path="$PROJECT_DIR$/com-yt-design-file-center-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,31 +85,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="139" column="19" lean-forward="true" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-yt-design-server-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="141">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -151,23 +123,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>YtTbSiteCommodityOrderEntity</find>
-      <find>ytTbSiteCommodityOrderEntityRepository</find>
-      <find>@param input</find>
-      <find>return</find>
-      <find>YtTbFontSiteUserEntity input</find>
-      <find>* @param this</find>
-      <find>@param this</find>
-      <find>ytTbFontSiteUserEntityRepository</find>
-      <find>input</find>
       <find>ytTbSitePayOrderEntityRepository</find>
       <find>ytTbSiteDemandOrderEntityRepository</find>
       <find>ytTbSiteCommonTypeEntityRepository</find>
       <find>JpaCommonException</find>
       <find>throws RequestCommonException</find>
-      <find>throws RequestCommonException</find>
       <find>0</find>
-      <find>ytTbSiteCommonTypeEntityService</find>
       <find>ytTbSiteServiceOrderEntityService</find>
       <find>ytTbSiteDemandOrderEntityService</find>
       <find>ytTbSitePayOrderEntityService</find>
@@ -181,16 +142,19 @@
       <find>(YtTbSitePayOrderEntity input)</find>
       <find>(YtTbSiteDemandOrderEntity input)</find>
       <find>(YtTbSiteCommodityOrderEntity input)</find>
+      <find>YtTbSiteCommodityOrderEntity</find>
+      <find>YtTbSiteCommonTypeEntity</find>
+      <find>ytTbSiteCommodityOrderEntityRepository</find>
+      <find>ytTbFontSiteUserEntityService</find>
+      <find>YtTbFontSiteUserEntity</find>
+      <find>YtTbSiteConfigFilesCenterEntity</find>
+      <find>FileCenterResponseEntity</find>
+      <find>ytTbSiteCommonTypeEntityService</find>
+      <find>YtTbSiteConfigAdsEntity</find>
+      <find>/font/site/api/asd</find>
+      <find>YtTbSiteConfigPartnersEntity</find>
     </findStrings>
     <replaceStrings>
-      <replace>package com.yt.design</replace>
-      <replace>import com.yt.design.exception.DataCheckCommonException;</replace>
-      <replace>DbDataCommonDataCheckerEntity</replace>
-      <replace>YtTbSiteCommodityOrderEntity</replace>
-      <replace>YtTbSitePayOrderEntity</replace>
-      <replace>YtTbSiteServiceOrderEntity</replace>
-      <replace>YtTbFontSiteUserEntity</replace>
-      <replace>ytTbFontSiteUserEntityRepository</replace>
       <replace>YtTbSiteDemandOrderEntity</replace>
       <replace>ytTbSitePayOrderEntityRepository</replace>
       <replace>return 检测结果</replace>
@@ -213,6 +177,14 @@
       <replace>(@RequestBody YtTbSitePayOrderEntity input)</replace>
       <replace>(@RequestBody YtTbSiteDemandOrderEntity input)</replace>
       <replace>(@RequestBody YtTbSiteCommodityOrderEntity input)</replace>
+      <replace>commonRepository</replace>
+      <replace>YtTbSiteConfigAdsEntity</replace>
+      <replace>YtTbSiteConfigFilesCenterEntity</replace>
+      <replace>entityService</replace>
+      <replace>YtTbSiteConfigPartnersEntity</replace>
+      <replace>/font/site/api/partners</replace>
+      <replace>YtTbSiteConfigCertChainEntity</replace>
+      <replace>YtTbSiteShotMessageSmsEntity</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -221,57 +193,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/TestController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/entity/common/JsonResponseStatus.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/YtTbFontSiteUserEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/YtTbSiteCommodityOrderEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/YtTbSiteDemandOrderEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/YtTbSitePayOrderEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/YtTbSiteServiceOrderEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonDataEntityChecker.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteCommodityOrderEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteDemandOrderEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteServiceOrderEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSitePayOrderEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/TestUploadController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/web/RequestWrapperFilter.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/RequestCommonException.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/dto/YtTbSiteCommonTypeEntityDto.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageQueryEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/entity/pages/DbDataCommonPageDownEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/common/YtTbFontSiteCommonEntityService.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageDownEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteCommonTypeEntityPagesRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommodityOrderEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteServiceOrderEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSitePayOrderEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteDemandOrderEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSitePayOrderController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteServiceOrderController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteDemandOrderController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteCommodityOrderController.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteCommonTypeEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteCommonTypeEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/pom.xml" />
-        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbFontSiteUserEntityService.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/DataCheckCommonException.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/MorseCodeUtil.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbFontSiteUserEntityRepository.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java" />
+        <option value="$PROJECT_DIR$/upload_api_back_to_te_server.sh" />
+        <option value="$PROJECT_DIR$/com-yt-design-file-center-api/src/main/resources/config/application-te.properties" />
+        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/config/application-re.properties" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigFilesCenterEntity.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigFilesCenterEntityRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigFilesCenterEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigFilesCenterEntityService.java" />
+        <option value="$PROJECT_DIR$/adocuments/api/file.api.md" />
+        <option value="$PROJECT_DIR$/com-yt-design-file-center-api/src/main/java/com/yt/design/controllers/files/YtFileCenterFileDownloadController.java" />
+        <option value="$PROJECT_DIR$/aaa.tx" />
         <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/entity/RestMessage.java" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-common/pom.xml" />
-        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/adocuments/api/user.api.md" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommonTypeEntityService.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java" />
+        <option value="$PROJECT_DIR$/adocuments/api/ads.api.md" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Ads/YtTbSiteCommonTypeControllersss.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigAdsEntityService.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigAdsEntityRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigAdsEntity.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Ads/YtTbSiteConfigAdsController.java" />
+        <option value="$PROJECT_DIR$/adocuments/api/轮播广告Api.md" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigAdsEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigPartnersEntityService.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigPartnersEntityRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigPartnersEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/partners/YtTbSiteConfigPartnersController.java" />
+        <option value="$PROJECT_DIR$/adocuments/api/合作伙伴Api.md" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigPartnersEntityPagesRepository2.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigPartnersEntityService212.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigPartnersEntityServiceImpl212.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigCertChainEntityRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigCertChainEntityPagesRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigCertChainEntityService.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigCertChainEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/certChain/YtTbSiteConfigPartnersController.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/certChain/YtTbSiteConfigCertChainController.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigCertChainEntity.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteShotMessageSmsEntity.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonStatusEntity.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigPartnersEntityRepository1.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigPartnersEntityPagesRepository1.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigPartnersEntityService1.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigPartnersEntityServiceImpl1.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteShotMessageSmsEntityRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteShotMessageSmsEntityPagesRepository.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteShotMessageSmsEntityService.java" />
+        <option value="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteShotMessageSmsEntityServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -311,12 +283,12 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="YtDesignMasterServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="com-yt-design-font-site-api" type="616d4139:PackageViewModuleNode" />
+              <item name="YtDesignMasterServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YtDesignMasterServer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,12 +305,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="YtDesignMasterServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YtDesignMasterServer" type="462c0819:PsiDirectoryNode" />
+              <item name="YtDesignMasterServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com-yt-design-font-site-api" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -365,18 +337,18 @@
       <recent name="com.yt.design" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yt.design.jpa.entity.common" />
-      <recent name="com.yt.design.jpa.repository.dto" />
-      <recent name="com.yt.design.exception" />
-      <recent name="com.yt.design.entity.common" />
-      <recent name="com.yt.design.controllers.Orders" />
+      <recent name="com.yt.design.jpa.serviceImpl" />
+      <recent name="com.yt.design.jpa.service" />
+      <recent name="com.yt.design.jpa.repository.pages" />
+      <recent name="com.yt.design.jpa.repository.normal" />
+      <recent name="com.yt.design.jpa.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/adocuments/api" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa" />
       <recent name="$PROJECT_DIR$/com-yt-design-server-jpa/src/main/resources" />
       <recent name="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/back/site/api/entity" />
-      <recent name="$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/back/site/api" />
-      <recent name="$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/font/site/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.font-site-api">
+  <component name="RunManager" selected="Tomcat Server.back-site-api">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -516,6 +488,78 @@
         </option>
       </method>
     </configuration>
+    <configuration name="file-center-api" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dspring.profiles.active=de" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="com-yt-design-file-center-api:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YtDesignMasterServer_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64342" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="com-yt-design-file-center-api:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="font-site-api" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.8" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dspring.profiles.active=de" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -604,10 +648,11 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.font-site-api" />
-      <item itemvalue="Tomcat Server.back-site-api" />
       <item itemvalue="Spring Boot.ComYtDesignServerJpaApplication" />
       <item itemvalue="Spring Boot.ComYtDesignServerCommonApplication" />
+      <item itemvalue="Tomcat Server.font-site-api" />
+      <item itemvalue="Tomcat Server.file-center-api" />
+      <item itemvalue="Tomcat Server.back-site-api" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -624,12 +669,13 @@
       <workItem from="1522803985892" duration="1634000" />
       <workItem from="1523460384083" duration="32939000" />
       <workItem from="1523843363463" duration="1011000" />
-      <workItem from="1523955875222" duration="9477000" />
+      <workItem from="1523955875222" duration="25823000" />
+      <workItem from="1524353639091" duration="13547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58062000" />
+    <option name="totallyTimeSpent" value="87955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,9 +712,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.6772414" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.6110345" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40387723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35702747" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,13 +723,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32965517" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6772414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6772414" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -697,19 +743,19 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.6096552" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35702747" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40387723" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.67448276" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
@@ -722,82 +768,73 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommodityOrderEntityServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigFilesCenterEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteServiceOrderEntityServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigFilesCenterEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="20" />
+        <state relative-caret-position="377">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteDemandOrderEntityServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-file-center-api/src/main/java/com/yt/design/controllers/files/YtFileCenterFileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="65" column="57" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSitePayOrderEntityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSitePayOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+        <state relative-caret-position="310">
+          <caret line="42" column="109" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="109" />
           <folding>
-            <element signature="e#6739#6797#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteServiceOrderController.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-file-center-api/src/main/java/com/yt/design/controllers/files/YtFileCenterFileDownloadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="168" column="24" lean-forward="true" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-          <folding>
-            <element signature="e#6881#6943#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteDemandOrderController.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbFontSiteUserEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="165" column="7" lean-forward="true" selection-start-line="165" selection-start-column="7" selection-end-line="165" selection-end-column="7" />
-          <folding>
-            <element signature="e#6827#6888#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSiteCommodityOrderController.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="168" column="6" lean-forward="true" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
-          <folding>
-            <element signature="e#7034#7098#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteCommonTypeEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -805,290 +842,327 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteCommonTypeEntityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="56" />
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteCommonTypeEntityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4144#4176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="148" column="56" selection-start-line="148" selection-start-column="42" selection-end-line="148" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Orders/YtTbSitePayOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="156" column="41" lean-forward="true" selection-start-line="156" selection-start-column="41" selection-end-line="156" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/TestController.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="570">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="163" column="15" lean-forward="true" selection-start-line="163" selection-start-column="15" selection-end-line="163" selection-end-column="15" />
-          <folding>
-            <element signature="e#6772#6830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/resources/config/application-te.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/common/YtTbFontSiteCommonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="375">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageDownEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Types/YtTbSiteCommonTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1695">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/web/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/ads/YtTbSiteConfigAdsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="30" column="104" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/config/SwaggerCondition.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigAdsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="408">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonPageQueryEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="285">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/ComYtDesignFontSiteApiApplication.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/partners/YtTbSiteConfigPartnersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/common/YtTbFontSiteCommonEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="577">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbFontSiteUserEntityService.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigAdsEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigPartnersEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="32" />
-          <folding>
-            <element signature="e#15711#15712#0" expanded="true" />
-            <element signature="e#15747#15748#0" expanded="true" />
-          </folding>
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/JpaCommonException.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Ads/YtTbSiteConfigAdsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-common/src/main/java/com/yt/design/exception/DataCheckCommonException.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigAdsEntityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="25" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/utils/PatternUtil.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigAdsEntityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="146" column="41" lean-forward="true" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/MorseCodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/SysConfigZini.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/UuidUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/IDCardUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/RandomUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/FastJsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/utils/PatternUtil.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigPartnersEntityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding>
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbFontSiteUserEntityRepository.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigPartnersEntityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="435">
+          <caret line="136" column="11" lean-forward="true" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbFontSiteUserEntityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="97" selection-start-line="97" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/Users/YtTbFontSiteUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PACKAGE-GUIDE.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NOTE.MD">
+    <entry file="file://$PROJECT_DIR$/adocuments/api/3.合作伙伴Api.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <first_editor relative-caret-position="551">
+            <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/entity/RestMessage.java">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigPartnersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="370">
+          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbFontSiteUserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/com-yt-design-font-site-api/src/main/java/com/yt/design/controllers/partners/YtTbSiteConfigPartnersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1579#1643#0" expanded="true" />
+            <element signature="e#2565#2601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/resources/config/application-re.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adocuments/api/2.分类相关Api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adocuments/api/5.轮播广告Api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="206">
+            <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adocuments/api/4.用户相关Api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="735">
+            <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adocuments/api/1.文件相关Api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteConfigCertChainEntityPagesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteConfigCertChainEntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="108" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteConfigCertChainEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteConfigCertChainEntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="122" column="20" lean-forward="true" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+          <folding>
+            <element signature="e#3945#3982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteConfigCertChainEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-back-site-api/src/main/java/com/yt/design/controllers/certChain/YtTbSiteConfigCertChainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="e#1721#1752#0" expanded="true" />
+            <element signature="e#2711#2742#0" expanded="true" />
+            <element signature="e#3701#3732#0" expanded="true" />
+            <element signature="e#4699#4730#0" expanded="true" />
+            <element signature="e#5704#5741#0" expanded="true" />
+            <element signature="e#6843#6908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/common/DbDataCommonStatusEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/normal/YtTbSiteShotMessageSmsEntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/repository/pages/YtTbSiteShotMessageSmsEntityPagesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/service/YtTbSiteShotMessageSmsEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/serviceImpl/YtTbSiteShotMessageSmsEntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#3923#3959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-yt-design-server-jpa/src/main/java/com/yt/design/jpa/entity/YtTbSiteShotMessageSmsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa.tx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="139" column="19" lean-forward="true" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+        <state relative-caret-position="141">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1231,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com-yt-design-server-jpa</last-edited>
+          <last-edited>com-yt-design-file-center-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

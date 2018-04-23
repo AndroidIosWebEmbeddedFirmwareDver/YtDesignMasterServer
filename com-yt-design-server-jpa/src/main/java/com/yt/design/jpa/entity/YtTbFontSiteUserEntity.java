@@ -3,6 +3,7 @@ package com.yt.design.jpa.entity;
 import com.yt.design.exception.DataCheckCommonException;
 import com.yt.design.jpa.entity.common.DbDataCommonDataEntityChecker;
 import com.yt.design.jpa.utils.PatternUtil;
+import com.yt.design.jpa.utils.UuidUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -36,6 +37,10 @@ public class YtTbFontSiteUserEntity implements DbDataCommonDataEntityChecker {
     @Column(name = "name")
     private String name;//'用户名'
 
+
+    @Column(name = "password")
+    private String password;//'用户密码'
+
     @Column(name = "email")
     private String email;//'用户邮箱'
 
@@ -55,6 +60,18 @@ public class YtTbFontSiteUserEntity implements DbDataCommonDataEntityChecker {
     private Integer isDeleted;//是否被删除/隐藏 1-删除 0-正常 -1-封印
 
 
+    @Column(name = "sessionId")
+    private String sessionId;//'用户带来sessionId,用于验证用户登录状态'
+
+    @Column(name = "isVip")
+    private Integer isVip;//'是否vip ,0-非VIP，1-VIP，默认0'
+
+    @Column(name = "vipLevel")
+    private Integer vipLevel;//'vip等级'
+
+    @Column(name = "vipExp")
+    private Long vipExp;//'vip增长经验，默认0'
+
     /**
      * 新增
      *
@@ -63,6 +80,9 @@ public class YtTbFontSiteUserEntity implements DbDataCommonDataEntityChecker {
     @Override
     public boolean dataCheckForCreate() throws DataCheckCommonException {
         if (this.name == null || this.name.length() <= 0) {
+            throw new DataCheckCommonException();
+        }
+        if (this.password == null || this.password.length() <= 0) {
             throw new DataCheckCommonException();
         }
         this.isDeleted = 0;
@@ -133,9 +153,13 @@ public class YtTbFontSiteUserEntity implements DbDataCommonDataEntityChecker {
             throw new Exception("用户名必填，且至少12个字符。");
         }
 
+        if (this.password == null || this.password.length() <= 0) {
+            throw new Exception("密码必填");
+        }
         if (email == null || email.length() <= 0) {
             throw new Exception("邮箱必填");
         }
+
         if (!PatternUtil.isEmail(email)) {
             throw new Exception("邮箱格式不正确");
         }
@@ -149,9 +173,16 @@ public class YtTbFontSiteUserEntity implements DbDataCommonDataEntityChecker {
         if (email == null || email.length() <= 0) {
             throw new Exception("邮箱必填");
         }
+        if (this.password == null || this.password.length() <= 0) {
+            throw new Exception("密码必填");
+        }
         if (!PatternUtil.isEmail(email)) {
             throw new Exception("邮箱格式不正确");
         }
+
+        this.isDeleted = 0;
+        this.sessionId = UuidUtil.randomUuidStr();
+        this.modifiedDateTime = new Timestamp(System.currentTimeMillis());
         return true;
     }
 

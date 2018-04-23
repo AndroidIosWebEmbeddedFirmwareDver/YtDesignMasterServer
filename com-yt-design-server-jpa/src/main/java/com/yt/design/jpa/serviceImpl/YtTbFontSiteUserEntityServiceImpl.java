@@ -116,7 +116,7 @@ public class YtTbFontSiteUserEntityServiceImpl implements YtTbFontSiteUserEntity
         if (input != null && input.dataCheckForFontSiteCreate()) {
             ytTbFontSiteUserEntityRepository.save(input);
         }
-        return input;
+        return null;
     }
 
     /**
@@ -129,7 +129,16 @@ public class YtTbFontSiteUserEntityServiceImpl implements YtTbFontSiteUserEntity
     @Override
     public YtTbFontSiteUserEntity fontSiteLogin(YtTbFontSiteUserEntity input) throws Exception {
         if (input != null && input.dataCheckForFontSiteLogin()) {
-            return ytTbFontSiteUserEntityRepository.findOneByEmail(input.getEmail(), 0);
+            YtTbFontSiteUserEntity a = ytTbFontSiteUserEntityRepository.findOneByEmailAndPassword(input.getEmail(), input.getPassword(), 0);
+            a.setEmail(null);
+            a.setPassword(null);
+            a.setInvitationCode(null);
+            a.setInputInvitationCode(null);
+            a.setCreatedDateTime(null);
+            a.setModifiedDateTime(null);
+            a.setEmail(null);
+            a.setIsDeleted(0);
+            return a;
         }
         return null;
     }

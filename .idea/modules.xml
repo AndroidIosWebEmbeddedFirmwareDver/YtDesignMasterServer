@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/YtDesignMasterServer.iml" filepath="$PROJECT_DIR$/YtDesignMasterServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-yt-design-back-site-api/com-yt-design-back-site-api.iml" filepath="$PROJECT_DIR$/com-yt-design-back-site-api/com-yt-design-back-site-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-yt-design-file-center-api/com-yt-design-file-center-api.iml" filepath="$PROJECT_DIR$/com-yt-design-file-center-api/com-yt-design-file-center-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-yt-design-font-site-api/com-yt-design-font-site-api.iml" filepath="$PROJECT_DIR$/com-yt-design-font-site-api/com-yt-design-font-site-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-yt-design-server-common/com-yt-design-server-common.iml" filepath="$PROJECT_DIR$/com-yt-design-server-common/com-yt-design-server-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-yt-design-server-jpa/com-yt-design-server-jpa.iml" filepath="$PROJECT_DIR$/com-yt-design-server-jpa/com-yt-design-server-jpa.iml" />

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-yt-design-file-center-api:war">
+    <output-path>$PROJECT_DIR$/com-yt-design-file-center-api/target</output-path>
+    <root id="archive" name="com-yt-design-file-center-api-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="com-yt-design-file-center-api:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com-yt-design-back-site-api" />
+        <module name="com-yt-design-file-center-api" />
         <module name="com-yt-design-font-site-api" />
         <module name="com-yt-design-server-common" />
         <module name="com-yt-design-server-jpa" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com-yt-design-back-site-api" target="1.8" />
+      <module name="com-yt-design-file-center-api" target="1.8" />
       <module name="com-yt-design-font-site-api" target="1.8" />
       <module name="com-yt-design-server-common" target="1.8" />
       <module name="com-yt-design-server-jpa" target="1.8" />

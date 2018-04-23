@@ -138,4 +138,20 @@ public class YtTbSiteCommonTypeEntityServiceImpl implements YtTbSiteCommonTypeEn
         }
         return null;
     }
+
+    /**
+     * 通过Level查询一堆
+     *
+     * @param input 输入参数
+     * @return 输出参数
+     */
+    @Override
+    public List<YtTbSiteCommonTypeEntity> findAllByLevel(YtTbSiteCommonTypeEntity input) throws JpaCommonException {
+        if (input != null && input.dataCheckForFind()) {
+            if (input.getLevel() > 0 && (input.getLevel() == 1 || input.getLevel() == 2)) {
+                return ytTbSiteCommonTypeEntityRepository.findAllByLevel(input.getLevel(), 0);
+            }
+        }
+        return null;
+    }
 }

@@ -14,6 +14,7 @@
         <module>com-yt-design-server-jpa</module>
         <module>com-yt-design-font-site-api</module>
         <module>com-yt-design-back-site-api</module>
+        <module>com-yt-design-file-center-api</module>
     </modules>
 
     <name>com-yt-design-matser-server</name>
